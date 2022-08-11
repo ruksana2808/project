@@ -1,0 +1,88 @@
+body{
+    background-color: #000000;
+    font-family: Helvetica;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #101010;
+    color: #ffffff;
+    margin: 0;
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background-color: #ffffff;
+    width: 11.375em;
+    height: 2.3125em;
+    margin:auto;
+    margin-left: 8.375em;
+    text-align: center;
+}
+img{
+    width: 75%;
+    height: 75%;
+    margin: 5px;
+    object-fit: contain;
+}
+ul{
+    display: flex;
+    margin-right: 8.375em;
+}
+li{
+    list-style: none;
+    padding: 0 0 0 2.5em;
+    font-size: 1.25em;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+section{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.rectangle{
+    background-color: #101010;
+    margin-left: 8.375rem;
+    width: 48em;
+    height: 20.1875em;
+
+}
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1.75em;
+    text-decoration-thickness: 4px;
+}
+
+.rectangle1{
+    background-color: #000000;
+    width: auto;
+
+}
+.box1{
+    background-color: #101010;
+    margin-left: 8.375rem;
+    width: 48em;
+    height: 20.1875em;
+
+}
+.rectangle2{
+    background-color: #101010;
+    width: auto;
+}
+
+.box2{
+    background-color: #000000;
+    margin-left: 8.375rem;
+    width: 48em;
+    height: 10em;
+}
+
+
